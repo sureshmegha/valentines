@@ -68,7 +68,7 @@ export default function ValentinesProposal() {
       // Change step after 5 seconds
       const timer = setTimeout(() => {
         setStep((prevStep) => prevStep + 1);
-      }, 5000);
+      }, 3000);
 
       return () => clearTimeout(timer);
     }
@@ -145,7 +145,7 @@ export default function ValentinesProposal() {
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl hover:from-pink-600 hover:to-rose-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 onClick={handleYesClick}
               >
-                Yes, I will! 🥰
+                Yes, I will megs princess cupcake monkey chunky lovely pee pee!
               </button>
               <button
                 className="px-6 py-2 text-lg font-semibold text-white bg-gradient-to-r from-gray-500 to-gray-600 rounded-xl hover:from-gray-600 hover:to-gray-700 transform hover:scale-95 transition-all duration-300 shadow-lg"
@@ -161,7 +161,7 @@ export default function ValentinesProposal() {
                 onMouseEnter={() => setPosition(getRandomPosition())}
                 onClick={() => setPosition(getRandomPosition())}
               >
-                No, I won&apos;t 😢
+                I'm gay
               </button>
             </div>
           </motion.div>
@@ -175,8 +175,8 @@ export default function ValentinesProposal() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            Thank you for accepting, I love you! 💕
-            <p className="text-sm mt-4">For more information, write me!!! 💌</p>
+            I love you jay. You are the best thing that has ever happened to me. You are my best friend and my entire world. We both did not want relationships until we found each other, and little did I know how much love I could feel for someone. You are so so special to me, and I can't wait to spend the rest of my life with you. I love you so much, and not only are you my world, but I am so incredibly proud of you. I always want your happiness and I hope you know I feel so lucky to have this love.  
+            <p className="text-sm mt-1"> </p>
             <Image
               src="/hamster_jumping.gif"
               alt="Hamster Feliz"
